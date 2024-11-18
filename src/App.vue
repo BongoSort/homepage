@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HelloWorld from './components/HelloWorld.vue'
 import TheWelcome from './components/TheWelcome.vue'
+import LandingPage from './components/LandingPage.vue'
 </script>
 
 <template>
@@ -9,6 +10,9 @@ import TheWelcome from './components/TheWelcome.vue'
 
     <div class="wrapper">
       <HelloWorld msg="pappa er en prut det er rigtigt :)!!!" />
+    </div>
+    <div class="wrapper">
+      <LandingPage/>
     </div>
   </header>
 
