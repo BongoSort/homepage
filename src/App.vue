@@ -1,23 +1,13 @@
 <script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
 import LandingPage from './components/LandingPage.vue'
 </script>
 
 <template>
   <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
-
-    <div class="wrapper">
-      <HelloWorld msg="pappa er en prut det er rigtigt :)!!!" />
-    </div>
-    <div class="wrapper">
-      <LandingPage/>
-    </div>
+    <img alt="Rune Billede" src="./assets/ansigtsbog.jpg" width="400"  />
   </header>
-
   <main>
-    <TheWelcome />
+    <LandingPage />
   </main>
 </template>
 
