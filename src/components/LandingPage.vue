@@ -1,6 +1,5 @@
 
-<script setup>
-</script>
+<script setup></script>
 
 <template>
 <body>
@@ -11,13 +10,6 @@
 
 
 <style scoped>
-h1 {
-  font-weight: 500;
-  font-size: 2.6rem;
-  position: relative;
-  top: -10px;
-}
-
 
 @media (min-width: 420px) {
   body {
@@ -25,6 +17,6 @@ h1 {
     place-items: center;
     padding-right: calc(var(--section-gap) / 2);
   }
-
 }
+
 </style>

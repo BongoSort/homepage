@@ -1,14 +1,12 @@
 <script setup lang="ts">
-
 import LandingPage from './components/LandingPage.vue'
-
 </script>
 
 <template>
   <header>
-    <h1 class="top-left">Rune Schuster</h1>
+    <h1 class="#home">Rune Schuster</h1>
     <nav class="menu-bar">
-      <a href="#about">Om mig</a>
+      <a href="#about">About me</a>
       <a href="#cv">CV</a>
     </nav>
       </header>
@@ -28,9 +26,6 @@ header {
   padding: 10px;
 }
 
-.top-left {
-  margin: 0;
-}
 
 .menu-bar {
   display: flex;
@@ -41,14 +36,12 @@ header {
   text-decoration: none;
   color: inherit;
 }
-header {
-  line-height: 1.5;
+
+footer {
+  text-align: right;
+  padding: 1rem;
 }
 
-/* .logo {
-  display: block;
-  margin: 0 auto 2rem;
-} */
 
 @media (min-width: 420px) {
   header {
@@ -57,14 +50,6 @@ header {
     padding-right: calc(var(--section-gap) / 2);
   }
 
-  /* .logo {
-    margin: 0 2rem 0 0;
-  } */
 
-  /* header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  } */
 }
 </style>
