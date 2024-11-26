@@ -1,55 +1,38 @@
 <script setup lang="ts">
 import LandingPage from './components/LandingPage.vue'
+import MenuBar from './components/MenuBar.vue'
+import AboutMe from './components/AboutMe.vue'
 </script>
 
 <template>
-  <header>
-    <h1 class="#home">Rune Schuster</h1>
-    <nav class="menu-bar">
-      <a href="#about">About me</a>
-      <a href="#cv">CV</a>
-    </nav>
-      </header>
-  <main>
-       <LandingPage />
-  </main>
+    <MenuBar />
+    <LandingPage />
+    <AboutMe />
   <footer>
     <p>&copy; 2024 Rune Schuster</p>
   </footer>
 </template>
 
-<style scoped>
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
+<style>
+/* Add background styling for the page */
+:root {
+  --background-image: url('@/assets/wood2.jpg');
 }
 
-
-.menu-bar {
-  display: flex;
-  gap: 20px;
-}
-
-.menu-bar a {
-  text-decoration: none;
-  color: inherit;
+body {
+  background-image: var(--background-image);
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-repeat: no-repeat; /* Prevents tiling of the image */
+  background-position: center;
+  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  margin: 0; /* Remove default margin */
+  font-family: Arial, sans-serif; /* Optional: set a default font */
 }
 
 footer {
   text-align: right;
   padding: 1rem;
+  color: white;
 }
 
-
-@media (min-width: 420px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-
-}
 </style>
