@@ -11,7 +11,8 @@ creativity with a structured, problem-solving mindset.
 <style scoped>
 #about {
   padding: var(--section-gap);
-  background-color: rgba(255, 255, 255, 0.8);
+  text-decoration-color:rgba(255, 255, 255, 1.0);
+  background-color: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   margin: 20px;
 }

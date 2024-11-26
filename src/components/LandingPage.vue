@@ -11,7 +11,13 @@
   body {
     display: flex;
     place-items: center;
+    gap: 20px;
+
     padding-right: calc(var(--section-gap) / 2);
+  }
+
+  img {
+    border: 5px black solid;
   }
 }
 </style>

@@ -32,7 +32,7 @@ body {
 footer {
   text-align: right;
   padding: 1rem;
-  color: white;
+  color: rgba(255, 255, 255, 0.8);
 }
 
 </style>
