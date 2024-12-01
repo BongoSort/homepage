@@ -1,13 +1,13 @@
 <script setup lang="ts">
-import LandingPage from './components/LandingPage.vue'
-import MenuBar from './components/MenuBar.vue'
-import AboutMe from './components/AboutMe.vue'
+import Content from "./components/Content.vue";
+import MenuBar from "./components/MenuBar.vue";
+import AboutMe from "./components/AboutMe.vue";
 </script>
 
 <template>
-    <MenuBar />
-    <LandingPage />
-    <AboutMe />
+  <MenuBar />
+  <Content />
+  <AboutMe />
   <footer>
     <p>&copy; 2024 Rune Schuster</p>
   </footer>
@@ -16,7 +16,7 @@ import AboutMe from './components/AboutMe.vue'
 <style>
 /* Add background styling for the page */
 :root {
-  --background-image: url('@/assets/wood2.jpg');
+  --background-image: url("@/assets/wood2.jpg");
 }
 
 body {
@@ -34,5 +34,4 @@ footer {
   padding: 1rem;
   color: rgba(255, 255, 255, 0.8);
 }
-
 </style>
