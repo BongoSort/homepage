@@ -1,9 +1,22 @@
-
 <template>
-<body>
-  <img alt="Software Picture" src="../assets/ansigtsbog.jpg" width="420" /> 
-  <img alt="Orchestra Picture" src="../assets/flotmand.jpg" width="420" />
-</body>
+  <body>
+    <a href="#home">
+      <img
+        class="image-link"
+        alt="Software Picture"
+        src="../assets/coffee_small.jpg"
+      />
+    </a>
+    <!-- Make this image a link to about me section -->
+    <a href="#about">
+      <img
+        class="image-link"
+        alt="Orchestra Picture"
+        src="../assets/concerthall2_small.jpg"
+      />
+    </a>
+    <a href="#cv"> </a>
+  </body>
 </template>
 
 <style scoped>
@@ -16,8 +29,19 @@
     padding-right: calc(var(--section-gap) / 2);
   }
 
-  img {
-    border: 5px black solid;
+  .image-link {
+    /* needs to be contained in a round circle */
+    max-width: 420px;
   }
+}
+
+.initial-navbar {
+  background-color: transparent;
+}
+
+.final-navbar {
+  background-color: #f9fafc;
+  color: #1c2d41;
+  transition: all 0.3s ease-out;
 }
 </style>
