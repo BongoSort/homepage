@@ -1,6 +1,6 @@
 <script setup lang="ts">
-import Content from "./components/Content.vue";
 import MenuBar from "./components/MenuBar.vue";
+import Content from "./components/Content.vue";
 import AboutMe from "./components/AboutMe.vue";
 </script>
 
@@ -14,17 +14,10 @@ import AboutMe from "./components/AboutMe.vue";
 </template>
 
 <style>
-/* Add background styling for the page */
-:root {
-  --background-image: url("@/assets/wood2.jpg");
-}
+/* add custom background color */
 
 body {
-  background-image: var(--background-image);
-  background-size: cover; /* Ensures the image covers the entire page */
-  background-repeat: no-repeat; /* Prevents tiling of the image */
-  background-position: center;
-  background-attachment: fixed; /* Keeps the image fixed when scrolling */
+  background-color: #5f2055;
   margin: 0; /* Remove default margin */
   font-family: Arial, sans-serif; /* Optional: set a default font */
 }

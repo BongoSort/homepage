@@ -4,7 +4,7 @@
       <img
         class="image-link"
         alt="Software Picture"
-        src="../assets/coffee_small.jpg"
+        src="@/assets/coffee_small.jpg"
       />
     </a>
     <!-- Make this image a link to about me section -->
@@ -12,7 +12,7 @@
       <img
         class="image-link"
         alt="Orchestra Picture"
-        src="../assets/concerthall2_small.jpg"
+        src="@/assets/concerthall2_small.jpg"
       />
     </a>
     <a href="#cv"> </a>
