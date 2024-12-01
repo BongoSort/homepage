@@ -38,4 +38,4 @@ docker-compose.override.yml
 *.tsbuildinfo
 
 # backlog
-backlog
+backlog.md
