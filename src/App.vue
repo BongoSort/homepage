@@ -17,7 +17,7 @@ import AboutMe from "./components/AboutMe.vue";
 /* add custom background color */
 
 body {
-  background-color: #5f2055;
+  background-color: white;
   margin: 0; /* Remove default margin */
   font-family: Arial, sans-serif; /* Optional: set a default font */
 }
@@ -25,6 +25,6 @@ body {
 footer {
   text-align: right;
   padding: 1rem;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgba(0, 0, 0, 0.8);
 }
 </style>

@@ -2,6 +2,8 @@
 
 ## Homepage Ideas
 
+Use Bootstrap?
+
 ### Menu
 
 when scrolled over a picure, turn solid
