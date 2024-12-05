@@ -1,20 +1,14 @@
-# Trin 1: Byg Vue-appen med Node.js
-FROM node:20-alpine AS build
+# Step 1: Use a Node image to install dependencies and build the app
+FROM node:20 AS build
 WORKDIR /app
 
-# Kopier projektfilerne
+# Copy package files and install dependencies
 COPY package.json package-lock.json ./
 RUN npm install
 
+# Copy the rest of your files
 COPY . .
-RUN npm run build
 
-# Trin 2: Serve med nginx
-FROM nginx:alpine
-COPY --from=build /app/dist /usr/share/nginx/html
-
-# Eksponér porten
-EXPOSE 80
-
-# Start nginx
-CMD ["nginx", "-g", "daemon off;"]
+# Step 2: Set up the development server, 5173 is default port for Vite
+EXPOSE 5173  
+CMD ["npm", "run", "dev"]

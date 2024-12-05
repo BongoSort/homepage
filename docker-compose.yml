@@ -1,6 +1,8 @@
-version: '3.8'
 services:
   web:
     build: .
     ports:
-      - "8080:80"
+      - "5173:5173" # Map the development server port
+    volumes:
+      - .:/app # Mount your project directory into the container
+    command: npm run dev # Start the development server
