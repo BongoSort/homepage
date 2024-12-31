@@ -7,11 +7,10 @@
         src="@/assets/coffee_small.jpg"
       />
     </a>
-    <!-- Make this image a link to about me section -->
     <a href="#about">
       <img
         class="image-link"
-        alt="Orchestra Picture"
+        alt="Snare Drum Picture"
         src="@/assets/snare_small.jpg"
       />
     </a>

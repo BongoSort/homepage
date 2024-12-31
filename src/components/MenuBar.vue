@@ -1,5 +1,5 @@
 <template>
-  <header id="home">
+  <header>
     <h1><a href="#home" class="home-link">Rune Schuster</a></h1>
     <nav class="menu-bar">
       <a href="#about">About me</a>

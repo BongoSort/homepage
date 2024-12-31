@@ -5,15 +5,17 @@ import AboutMe from "./components/AboutMe.vue";
 </script>
 
 <template>
-  <MenuBar />
-  <MainContent />
-  <AboutMe />
-  <footer>
-    <p>&copy; 2024 Rune Schuster</p>
-  </footer>
+  <div id="home">
+    <MenuBar />
+    <MainContent />
+    <AboutMe />
+    <footer>
+      <p>&copy; 2024 Rune Schuster</p>
+    </footer>
+  </div>
 </template>
 
-<style>
+<style scoped>
 /* add custom background color */
 
 body {
