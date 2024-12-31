@@ -12,10 +12,9 @@
       <img
         class="image-link"
         alt="Orchestra Picture"
-        src="@/assets/concerthall2_small.jpg"
+        src="@/assets/snare_small.jpg"
       />
     </a>
-    <a href="#cv"> </a>
   </body>
 </template>
 
@@ -25,8 +24,6 @@
     display: flex;
     place-items: center;
     gap: 20px;
-
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .image-link {

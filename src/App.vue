@@ -1,12 +1,12 @@
 <script setup lang="ts">
 import MenuBar from "./components/MenuBar.vue";
-import Content from "./components/Content.vue";
+import MainContent from "./components/MainContent.vue";
 import AboutMe from "./components/AboutMe.vue";
 </script>
 
 <template>
   <MenuBar />
-  <Content />
+  <MainContent />
   <AboutMe />
   <footer>
     <p>&copy; 2024 Rune Schuster</p>
